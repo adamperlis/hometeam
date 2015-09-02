@@ -4,25 +4,25 @@ $('.carousel').carousel({
 
 
 
-$('img').mousedown(function(e){
-	var e = window.event;
+// $('img').mousedown(function(e){
+// 	var e = window.event;
 
-    var posX = e.clientX;
-    var posY = e.clientY;
+//     var posX = e.clientX;
+//     var posY = e.clientY;
 
-    document.posx = posX;
-    document.posy = posY;
+//     document.posx = posX;
+//     document.posy = posY;
 
-	function zoom() {
-	var position = document.querySelectorAll("img");
-		position[0].style.transformOrigin = posX + 'px ' + posY + 'px';
-		position[1].style.transformOrigin = posX + 'px ' + posY + 'px';
-		position[2].style.transformOrigin = posX + 'px ' + posY + 'px';
-		position[3].style.transformOrigin = posX + 'px ' + posY + 'px';
-	}
+// 	function zoom() {
+// 	var position = document.querySelectorAll("img");
+// 		position[0].style.transformOrigin = posX + 'px ' + posY + 'px';
+// 		position[1].style.transformOrigin = posX + 'px ' + posY + 'px';
+// 		position[2].style.transformOrigin = posX + 'px ' + posY + 'px';
+// 		position[3].style.transformOrigin = posX + 'px ' + posY + 'px';
+// 	}
 
-	zoom();
+// 	zoom();
 
-})
+// })
 
 
