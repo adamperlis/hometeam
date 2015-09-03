@@ -1,9 +1,7 @@
-var host = "127.0.0.1";
-var port = 5000;
 var express = require("express");
 
 var app = express();
 app.use('/', express.static(__dirname + '/'));
-app.listen(port, host);
+app.listen(process.env.PORT || 5000)
 
 console.log('Running server at http://localhost:' + port + '/');
