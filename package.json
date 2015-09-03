@@ -1,0 +1,28 @@
+{
+  "name": "hometeam",
+  "version": "1.0.0",
+  "description": "Hometeam",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dam4222/hometeam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dam4222/hometeam/issues"
+  },
+  "homepage": "https://github.com/dam4222/hometeam#readme",
+  "engines": {
+    "node": "0.12.x"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}

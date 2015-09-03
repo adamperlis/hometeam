@@ -20,3 +20,8 @@ Icon?
 Thumbs.db
 
 assets/*
+
+/node_modules
+npm-debug.log
+.DS_Store
+/*.env
